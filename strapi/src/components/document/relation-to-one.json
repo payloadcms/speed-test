@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_document_relation_to_ones",
+  "info": {
+    "displayName": "relationToOne"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "relationship_a": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::relationship-a.relationship-a"
+    }
+  }
+}

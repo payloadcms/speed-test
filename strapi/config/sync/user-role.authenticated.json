@@ -1,0 +1,58 @@
+{
+  "name": "Authenticated",
+  "description": "Default role given to authenticated user.",
+  "type": "authenticated",
+  "permissions": [
+    {
+      "action": "api::document.document.create"
+    },
+    {
+      "action": "api::document.document.delete"
+    },
+    {
+      "action": "api::document.document.find"
+    },
+    {
+      "action": "api::document.document.findOne"
+    },
+    {
+      "action": "api::document.document.update"
+    },
+    {
+      "action": "api::relationship-a.relationship-a.create"
+    },
+    {
+      "action": "api::relationship-a.relationship-a.delete"
+    },
+    {
+      "action": "api::relationship-a.relationship-a.find"
+    },
+    {
+      "action": "api::relationship-a.relationship-a.findOne"
+    },
+    {
+      "action": "api::relationship-a.relationship-a.update"
+    },
+    {
+      "action": "api::relationship-b.relationship-b.create"
+    },
+    {
+      "action": "api::relationship-b.relationship-b.delete"
+    },
+    {
+      "action": "api::relationship-b.relationship-b.find"
+    },
+    {
+      "action": "api::relationship-b.relationship-b.findOne"
+    },
+    {
+      "action": "api::relationship-b.relationship-b.update"
+    },
+    {
+      "action": "plugin::users-permissions.auth.changePassword"
+    },
+    {
+      "action": "plugin::users-permissions.user.me"
+    }
+  ]
+}

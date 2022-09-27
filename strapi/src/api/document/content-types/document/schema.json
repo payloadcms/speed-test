@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "documents",
+  "info": {
+    "singularName": "document",
+    "pluralName": "documents",
+    "displayName": "Document",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "document.has-many-relations",
+        "document.relation-to-one"
+      ]
+    },
+    "Group": {
+      "displayName": "Group",
+      "type": "component",
+      "repeatable": false,
+      "component": "group.group"
+    },
+    "array": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array.array"
+    },
+    "relationship_as": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::relationship-a.relationship-a",
+      "mappedBy": "document"
+    }
+  }
+}

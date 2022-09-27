@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_group_groups",
+  "info": {
+    "displayName": "Group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "NestedGroup": {
+      "type": "component",
+      "repeatable": false,
+      "component": "group.nested-group"
+    }
+  }
+}

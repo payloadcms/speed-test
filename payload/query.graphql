@@ -1,0 +1,52 @@
+query {
+  Documents {
+    docs {
+      title
+      group {
+        text
+        nestedGroup {
+          text
+        }
+      }
+      array {
+        text
+        nestedArray {
+          text
+          relation {
+            title
+            relation {
+              title
+            }
+          }
+        }
+      }
+      blocks {
+        ...on RelationToOne {
+          text
+          relation {
+            title
+            relation {
+              title
+            }
+          }
+        }
+        
+        ...on HasManyRelation {
+          text
+          relationToMany {
+            title
+            relation {
+              title
+            }
+          }
+        }
+      }
+      relation {
+        title
+        relation {
+          title
+        }
+      }
+    }
+  }
+}

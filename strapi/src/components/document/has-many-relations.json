@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_document_has_many_relations",
+  "info": {
+    "displayName": "hasManyRelations"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "relationship_as": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::relationship-a.relationship-a"
+    }
+  }
+}

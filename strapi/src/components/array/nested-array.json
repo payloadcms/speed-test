@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_array_nested_arrays",
+  "info": {
+    "displayName": "NestedArray",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "relationship_a": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::relationship-a.relationship-a"
+    }
+  }
+}

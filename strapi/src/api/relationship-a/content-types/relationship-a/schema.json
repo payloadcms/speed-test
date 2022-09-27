@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "relationship_as",
+  "info": {
+    "singularName": "relationship-a",
+    "pluralName": "relationship-as",
+    "displayName": "RelationshipA",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "relationship_b": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::relationship-b.relationship-b"
+    },
+    "document": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::document.document",
+      "inversedBy": "relationship_as"
+    }
+  }
+}

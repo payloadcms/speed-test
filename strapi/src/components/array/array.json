@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_array_arrays",
+  "info": {
+    "displayName": "Array"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "NestedArray": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array.nested-array"
+    }
+  }
+}

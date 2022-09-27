@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_group_nested_groups",
+  "info": {
+    "displayName": "NestedGroup"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}
